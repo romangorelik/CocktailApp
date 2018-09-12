@@ -12,8 +12,13 @@ let image3 = 'https://images.unsplash.com/photo-1482349212652-744925892164?ixlib
 class App extends React.Component {
   render () {
 		return (
-			<div className='splashPage'>
-				<BackgroundSlideshow images={[ image1, image2, image3 ]} />
+			<div>
+				<div className='splashPage'>
+					<BackgroundSlideshow images={[ image1, image2, image3 ]} />
+				</div>
+				<div className='centeredText'>
+					<h1>Hello World!</h1>
+				</div>
 			</div>
 		)
 	}
