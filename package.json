@@ -1,0 +1,19 @@
+{
+  "name": "cocktailapp",
+  "version": "1.0.0",
+  "description": "Improved version of MVP project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romangorelik/CocktailApp.git"
+  },
+  "author": "Roman Gorelik",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romangorelik/CocktailApp/issues"
+  },
+  "homepage": "https://github.com/romangorelik/CocktailApp#readme"
+}
