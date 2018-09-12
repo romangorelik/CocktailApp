@@ -4,7 +4,8 @@
   "description": "Improved version of MVP project.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "server-dev": "nodemon index.js",
+    "react-dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,22 @@
   "bugs": {
     "url": "https://github.com/romangorelik/CocktailApp/issues"
   },
-  "homepage": "https://github.com/romangorelik/CocktailApp#readme"
+  "homepage": "https://github.com/romangorelik/CocktailApp#readme",
+  "devDependencies": {
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.3.2",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.23.0",
+    "webpack": "^2.2.1"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0",
+    "react": "16.4.2",
+    "react-dom": "16.4.2",
+    "mongoose": "^4.9.6"
+  }
 }
