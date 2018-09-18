@@ -4,7 +4,6 @@ import React from 'react'
 
 /* Component imports */
 
-
 /* Module imports */
 
 import Header from './Header.jsx'

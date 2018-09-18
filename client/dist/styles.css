@@ -5,8 +5,7 @@
 
 .centeredText {
   position: absolute;
-  top: 2%;
-  left: 2%;
+  top: -2%;
   color: white;
   z-index: 1000;
 }
@@ -20,7 +19,7 @@
 nav a {
   font-family: sans-serif;
   text-decoration: none;
-  color: gray;
+  color: white;
   position: relative;
   margin: 10px 0;
   display: inline-block;
@@ -49,4 +48,50 @@ nav a:hover ~ a::after {
 nav a:hover::after {
   left: 0;
   right: 0;
+}
+
+.searchBar {
+  margin-top: 8%;
+  margin-left: 43%
+}
+
+.imagesRender {
+  margin-top: 4%;
+  margin-left: 2.5%
+}
+
+.banner {
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 10%;
+  background-size: 100%;
+  background: #0f0c29;
+  background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+}
+
+.appName {
+  font-size: 100px;
+  position: absolute;
+  top: 30%;
+  left: 10%;
+  color: white;
+  z-index: 1000;
+  font-family: 'Oleo Script', cursive;
+}
+
+.descriptionMain {
+  font-size: 10px;
+  position: absolute;
+  top: 40%;
+  left: 10%;
+  color: white;
+  z-index: 1000;
+  font-family: 'Oleo Script', cursive;
+}
+
+.paragraphMain {
+  margin-left: -6%;
+  width: 55%
 }
