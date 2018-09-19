@@ -28,6 +28,12 @@ class Search extends React.Component {
       .catch(err => console.error(err))
   }
 
+  saveFavorites(drink) {
+    axios.post('/save', drink)
+      .then(res => console.log('Saved'))
+      .catch(err => console.error(err))
+  }
+
   onChange(e) {
     this.setState({drink: e.target.value})
   }
@@ -54,6 +60,7 @@ class Search extends React.Component {
                         {drink.strIngredient4 && <li>{drink.strIngredient4}</li>}
                       </ul>
                       <Header>{drink.strGlass}</Header>
+                      <Button style={{float: 'right'}} onClick={() => this.saveFavorites(drink)}>Save This Drink</Button>
                     </Modal.Description>
                   </Modal.Content>
                 </Modal>

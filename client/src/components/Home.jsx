@@ -25,9 +25,10 @@ class Home extends React.Component {
         <Container text className='descriptionMain'>
           <p className='paragraphMain'>
             Yasigi is a user friendly cocktail and juice application that allows users to easily 
-            search up drinks by ingredient or name. It also allows you to filter the different drinks
-            by the different types of glasses they are served in. It allows the user to save and view 
-            their favorite drinks, as well as delete them if they are no longer interested.
+            search up drinks by ingredient or name. Users can click on the image to check its
+            description, name, ingredients, and type of glass. It also allows you to filter the 
+            different drinks by the different types of glasses they are served in. It allows the 
+            user to save and view their favorite drinks, as well as delete them if they are no longer interested.
           </p>
         </Container>
 			</div>
